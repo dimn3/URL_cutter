@@ -1,10 +1,9 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField
-from wtforms.validators import (
-    DataRequired, Length, Optional, Regexp, URL, ValidationError
-)
+from wtforms.validators import (URL, DataRequired, Length, Optional, Regexp,
+                                ValidationError)
 
-from .consts import SHORT_LENGTH, SHORT_REXEXP, ORIGINAL_LINK_LENGTH
+from .consts import ORIGINAL_LINK_LENGTH, SHORT_LENGTH, SHORT_REXEXP
 from .models import URLMap
 
 

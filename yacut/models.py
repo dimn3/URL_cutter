@@ -1,21 +1,12 @@
 from datetime import datetime
 from random import choices
 from re import fullmatch
+
 from . import db
-from .consts import (
-    APPROVED_SYMBOLS,
-    ORIGINAL_LINK_LENGTH,
-    RANDOM_GEN_TRYS,
-    SHORT_LENGTH,
-    SHORT_RANDOM_LENGTH,
-    SHORT_REXEXP,
-)
-from .error_handlers import (
-    GeneratedShortException,
-    ShortIsBadException,
-    ShortIsExistsException,
-    URLMapException
-)
+from .consts import (APPROVED_SYMBOLS, ORIGINAL_LINK_LENGTH, RANDOM_GEN_TRYS,
+                     SHORT_LENGTH, SHORT_RANDOM_LENGTH, SHORT_REXEXP)
+from .error_handlers import (GeneratedShortException, ShortIsBadException,
+                             ShortIsExistsException, URLMapException)
 
 
 class URLMap(db.Model):

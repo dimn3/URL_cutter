@@ -2,12 +2,8 @@ from flask import jsonify, request, url_for
 
 from . import app
 from .consts import SHORT_FUNCTION_NAME
-from .error_handlers import (
-    APIException,
-    GeneratedShortException,
-    ShortIsBadException,
-    ShortIsExistsException
-)
+from .error_handlers import (APIException, GeneratedShortException,
+                             ShortIsBadException, ShortIsExistsException)
 from .models import URLMap
 
 

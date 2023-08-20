@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="334473ba-0678-4d52-bad9-8d8a61864079" name="Changes" comment="" />
+    <list default="true" id="334473ba-0678-4d52-bad9-8d8a61864079" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/yacut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yacut.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/api_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/error_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/error_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yacut/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/yacut/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +33,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/dev/what_to_watch",
+    "last_opened_file_path": "C:/dev/yacut",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -36,7 +51,11 @@
       <option name="presentableId" value="Default" />
       <updated>1691049746776</updated>
       <workItem from="1691049747880" duration="7000" />
+      <workItem from="1692562076288" duration="735000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

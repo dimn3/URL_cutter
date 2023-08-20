@@ -1,4 +1,5 @@
 from flask import jsonify, render_template
+
 from . import app, db
 
 NOT_FOUND = 'Страница не найдена'

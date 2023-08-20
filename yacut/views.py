@@ -1,4 +1,5 @@
-from flask import abort, flash, redirect, render_template, url_for
+from flask import flash, redirect, render_template, url_for
+
 from . import app
 from .consts import SHORT_FUNCTION_NAME
 from .error_handlers import URLMapException
@@ -32,7 +33,5 @@ def add_link_view():
 
 @app.route('/<string:short_url>')
 def link_redirect_view(short_url):
-    link_record = URLMap.get(short_url)
-    if link_record is None:
-        abort(404)
+    link_record = URLMap.query.first_or_404(short_url)
     return redirect(link_record.original)
